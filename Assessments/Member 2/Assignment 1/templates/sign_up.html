@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block head %}
+  <title>Sign Up</title>
+{% endblock %}
+
+{% block body %}
+<center><h2>Sign Up Form</h2></center>
+  <form>
+    <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="email" class="form-control" id="name">
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email">
+    </div>
+    <div class="mb-3">
+        <label for="pwd" class="form-label">Password</label>
+        <input type="password" class="form-control" id="pwd">
+    </div>
+    <div class="mb-3">
+        <label for="cpwd" class="form-label">Email address</label>
+        <input type="password" class="form-control" id="cpwd">
+    </div>
+    <center><button type="submit" class="btn btn-primary">Sign Up</button></center>
+  </form>
+
+{% endblock %}
